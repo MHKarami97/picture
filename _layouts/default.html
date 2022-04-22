@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <title>{{page.title}} | {{site.name}}</title>
-    
+    <meta name="robots" content="noindex">
     {% seo %}
     
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
@@ -22,7 +22,7 @@
     
 </head>
     
-<body>
+<body oncontextmenu="return false;">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <a class="navbar-brand font-weight-bolder mr-3" href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/{{site.logo}}" width="60px"></a>
